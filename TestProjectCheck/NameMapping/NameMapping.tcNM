@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F386AF0C-DD39-46D4-BD6A-B136419A5616}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{78D664DA-8096-4D92-93D2-D7DBA05B4322}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{64CD4055-1F1F-42CA-8D50-ADD32F6CFDCD}">
+								<Image FileName="-413274780" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHome" Key="{A8932ACA-ADE8-4943-939F-EC6780FE20CC}">
+								<TypeInfo Item0="{739E3E01-A681-4BE2-B52A-E54F9E387B1D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://rafael-test.wfsaas.com/workforce/Home.do*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameEntryframe" Key="{368F2A57-1A2D-4614-95B7-F3BB6F0BAB92}">
+										<Image FileName="1751362088" Left="8" Top="160" Right="1374" Bottom="736" />
+										<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#EntryFrame" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;EntryFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[@id=&apos;EntryFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frameset[@id=&apos;NavSet&apos;]/frame[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnode" Key="{7F5DA10A-0B92-4F47-955F-B7DD967717F6}">
+												<Image FileName="1751362088" Left="426" Top="224" Right="651" Bottom="380" />
+												<TypeInfo Item0="{2B71C6DB-04EE-4813-B0CF-2E9174C73C54}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Edit Employee Time&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;linkGroup_TIME_ENTRY&apos;]/div/div[2]/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div[2]/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode2" Key="{653EA88E-19E0-4348-858D-4BE581F5E20A}">
+												<Image FileName="1751362088" Left="426" Top="224" Right="651" Bottom="263" />
+												<TypeInfo Item0="{2B71C6DB-04EE-4813-B0CF-2E9174C73C54}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Edit Employee Time&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;linkGroup_TIME_ENTRY&apos;]/div/div[2]/ul/li" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div[2]/ul/li" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkEditEmployeeTime" Key="{33B9E88F-D9A1-48B8-AF98-17AD7BD8236C}">
+												<Image FileName="1751362088" Left="426" Top="224" Right="651" Bottom="263" />
+												<TypeInfo Item0="{AE7A69AB-6A67-4E4A-B640-9B2007EB3CCD}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[text()=&apos;Edit Employee Time&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="a[href*=&apos;ManagerFrame.do&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;linkGroup_TIME_ENTRY&apos;]/div/div[2]/ul/li/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@href, &apos;ManagerFrame.do&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameMainframe" Key="{50DBA051-7A6C-4793-82D6-3E5FDD8F9517}">
+										<Image FileName="1336744487" Left="8" Top="160" Right="1374" Bottom="736" />
+										<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainFrame" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[@id=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frameset[@id=&apos;NavSet&apos;]/frame[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="buttonFind" Key="{FD04B596-B0D5-4871-86C8-28C449FAE739}">
+												<Image FileName="1336744487" Left="111" Top="256" Right="147" Bottom="272" />
+												<TypeInfo Item0="{9AEFCF47-CC5D-4EC8-B679-FC7D37A7FB1C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[text()=&apos;Find&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="(//button[@type=&apos;button&apos;])[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//table[@id=&apos;find&apos;]/tbody/tr[2]/td[2]/em/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[3]/table/tbody/tr[2]/td[2]/em/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="form" Key="{89412073-B705-4D01-B26D-4CB924AD3CF2}">
+												<Image FileName="-2053644828" Left="399" Top="301" Right="983" Bottom="575" />
+												<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//form[contains(., &apos;Employee ID:&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;searchWindow&apos;]/div[2]/div/div/div/div/div/div[2]/form" />
+													</Selector>
+													<Selector>
+														<Value Value="//form" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxEmployeeId" Key="{85C479DB-6D96-49A5-B535-9CFF8BE140B2}">
+												<Image FileName="-2053644828" Left="600" Top="311" Right="830" Bottom="333" />
+												<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+												<Selectors>
+													<Selector>
+														<Value Value="*[id=&apos;EMPLOYEE$DISPLAY_EMPLOYEE&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="*[name=&apos;EMPLOYEE$DISPLAY_EMPLOYEE&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@id=(//label[text()=&apos;Employee ID:&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#EMPLOYEE\$DISPLAY_EMPLOYEE" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@id=&apos;EMPLOYEE$DISPLAY_EMPLOYEE&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="input[type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;x-form-el-EMPLOYEE$DISPLAY_EMPLOYEE&apos;]/input" />
+													</Selector>
+													<Selector>
+														<Value Value="//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="panel" Key="{A8A76513-FFB7-4157-A262-2D56D7B0DBBA}">
+												<Image FileName="-67853317" Left="501" Top="346" Right="623" Bottom="365" />
+												<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[text()=&apos;010000061&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value=".x-grid3-col-EMPLOYEE\$DISPLAY_EMPLOYEE1" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;searchWindow&apos;]/div[2]/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/table/tbody/tr/td[2]/div" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div/table/tbody/tr/td[2]/div" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageManagerTimeEntry" Key="{2CE1733B-C544-4F67-8330-0ADC1682DA64}">
+								<Image FileName="-583352275" Left="8" Top="111" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{50E5AFAC-DDCE-4AF6-9FBE-1E0A3FE9CC98}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://rafael-test.wfsaas.com/workforce/ManagerFrame.do*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameMainframe" Key="{976F7BB5-F655-4318-8405-5D9716E008AA}">
+										<Image FileName="-583352275" Left="8" Top="160" Right="1374" Bottom="736" />
+										<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainFrame" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[@id=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frameset[@id=&apos;NavSet&apos;]/frame[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="buttonSearch" Key="{EB926509-AE5B-46C0-8CD5-BEBA7D795F37}">
+												<Image FileName="-583352275" Left="839" Top="587" Right="874" Bottom="603" />
+												<TypeInfo Item0="{9AEFCF47-CC5D-4EC8-B679-FC7D37A7FB1C}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[text()=&apos;Search&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="(//button[@type=&apos;button&apos;])[5]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;searchWindow&apos;]/div[2]/div/div/div/div/div/div[2]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/em/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/em/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="frameTimeentryframe" Key="{12AC8673-C77D-4DD0-8E71-91F6204EF508}">
+												<Image FileName="1661581603" Left="273" Top="161" Right="1373" Bottom="735" />
+												<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#timeEntryFrame" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@id=&apos;timeEntryFrame&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;managerTreeContentContainer&apos;]/div/div/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe" />
+													</Selector>
+												</Selectors>
+												<Children>
+													<Child Name="panel" Key="{2FCE6666-02BE-45A0-8EF8-55F37A93435E}">
+														<Image FileName="1661581603" Left="1312" Top="280" Right="1344" Bottom="309" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//div[@id=&apos;topTabsComponent&apos;]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div[3]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div[3]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="panelCalendarcellTimesheetExtCom" Key="{3F09B9A1-96E2-4245-96A8-BECC849BFDEB}">
+														<Image FileName="-814213707" Left="1138" Top="361" Right="1177" Bottom="400" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="(//div[contains(.,&apos;6&apos;)])[89]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[2]/td[4]/div" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="panel2" Key="{5AA844C7-1172-4A3F-A0FD-EB6E9478302B}">
+														<Image FileName="-1849080759" Left="1282" Top="255" Right="1299" Bottom="272" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//div[@class=&apos;x-tool x-tool-close&apos;]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="imageClearGifVer1227041127" Key="{50DC8939-79F2-4C23-8EB7-B82B9B5BDF15}">
+														<Image FileName="322068611" Left="290" Top="349" Right="317" Bottom="369" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="#dataRow\|Panel_0\|-11 .addComboStart" />
+															</Selector>
+															<Selector>
+																<Value Value="(//img[@onclick=&apos;handleUiEvent(this, event)&apos;])[3]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[@id=&apos;dataRow|Panel_0|-11&apos;]/td/img" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[2]/table/tbody/tr/td/img" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textboxDatafieldPanel021PayCode" Key="{613FAE8F-9260-467D-86B4-DF81EDBFD31F}">
+														<Image FileName="1181997075" Left="337" Top="374" Right="502" Bottom="389" />
+														<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="*[id=&apos;dataField|Panel_0|-21|pay_code&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="#dataField\|Panel_0\|-21\|pay_code" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[@id=&apos;dataField|Panel_0|-21|pay_code&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="(//input[@type=&apos;text&apos;])[36]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[@id=&apos;dataRow|Panel_0|-21&apos;]/td[2]/div[2]/div/div/input" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[2]/td[2]/div[2]/div/div/input" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textbox" Key="{0B4FFE89-A7B4-4492-9240-FB8FB172C25F}">
+														<Image FileName="24982955" Left="1016" Top="374" Right="1126" Bottom="389" />
+														<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@value=&apos;Clock&apos;]/../../../../..//td[7]//input[@fieldmappingpolicy=&apos;START_DTTM&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[@id=&apos;dataRow|Panel_0|-21&apos;]/td[7]/div[2]/div[2]/input" />
+															</Selector>
+															<Selector>
+																<Value Value="(//input[@value=&apos;&apos;])[45]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[2]/td[7]/div[2]/div[2]/input" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textbox2" Key="{8B299E0F-5DAA-4536-85EA-70B6A9BE9B6D}">
+														<Image FileName="1683008263" Left="1016" Top="373" Right="1126" Bottom="388" />
+														<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@value=&apos;Clock&apos;]/../../../../..//td[7]//input[@fieldmappingpolicy=&apos;END_DTTM&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//tr[2]/td[7]/div[2]/div[3]/input" />
+															</Selector>
+															<Selector>
+																<Value Value="(//input[@type=&apos;text&apos;])[48]" />
+															</Selector>
+															<Selector>
+																<Value Value="(//input[@value=&apos;&apos;])[46]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="panel3" Key="{AE69530B-D72B-4E69-BD13-8EF3BBB777C0}">
+														<Image FileName="1585180029" Left="276" Top="318" Right="1369" Bottom="525" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="(//div[contains(.,&apos;Sunday January 27, 2019 to Saturday February 2, 2019&apos;)])[18]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;topTabsComponent&apos;]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div" />
+															</Selector>
+															<Selector>
+																<Value Value="//div/div/div[2]/div/div" />
+															</Selector>
+														</Selectors>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameMainframe2" Key="{2D979A5D-2F70-4AFF-AB08-E89E8A4E4D09}">
+										<Image FileName="-1717630415" Left="8" Top="160" Right="1374" Bottom="736" />
+										<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mainFrame" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[@id=&apos;mainFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frameset[@id=&apos;NavSet&apos;]/frame[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//frame[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="frameTimeentryframe" Key="{BF733F38-8C25-4520-B421-F8A81517874F}">
+												<Image FileName="-1717630415" Left="273" Top="161" Right="1373" Bottom="735" />
+												<TypeInfo Item0="{AEFB6A61-39B1-403C-ABD8-A30F4CC0A575}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#timeEntryFrame" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@id=&apos;timeEntryFrame&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;managerTreeContentContainer&apos;]/div/div/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe" />
+													</Selector>
+												</Selectors>
+												<Children>
+													<Child Name="panel" Key="{89A7D0F9-F98D-4F1B-8342-B805FA356109}">
+														<Image FileName="-1717630415" Left="1282" Top="255" Right="1299" Bottom="272" />
+														<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//div[13]/div/div/div/div/div" />
+															</Selector>
+														</Selectors>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWorkforceTime" Key="{623FBB9A-F5AB-49AF-AAB5-BF05E614D166}">
+								<Image FileName="-35803232" Left="8" Top="111" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{50E5AFAC-DDCE-4AF6-9FBE-1E0A3FE9CC98}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://rafael-test.wfsaas.com/workforce/Desktop.do" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLogonform" Key="{B04E25D3-E253-485F-9747-4FD2145440BD}">
+										<Image FileName="-35803232" Left="8" Top="310" Right="1374" Bottom="640" />
+										<TypeInfo Item0="{148A96EC-2371-4F51-B7B1-DCD3981D39D7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#LogonForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;LogonForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;User ID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;LogonForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{02BA5752-ACEC-49D4-8C2B-B991DF1442EC}">
+										<Image FileName="-35803232" Left="547" Top="397" Right="836" Bottom="435" />
+										<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;LogonForm&apos;]/table/tbody/tr[3]/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{F6325602-D49A-42DF-8A4A-7C7EEEDE0B03}">
+										<Image FileName="-436220943" Left="547" Top="468" Right="836" Bottom="506" />
+										<TypeInfo Item0="{76E2048B-E4B9-43EA-9CF6-92E1A2DC4FE7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;LogonForm&apos;]/table/tbody/tr[5]/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogIn" Key="{13531DCE-E630-458E-B3DF-19444A377360}">
+										<Image FileName="-548206612" Left="547" Top="516" Right="693" Bottom="556" />
+										<TypeInfo Item0="{4199D3F8-0D08-4ECD-803B-1021ADCB94CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;LogonForm&apos;]/table/tbody/tr[6]/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{78D664DA-8096-4D92-93D2-D7DBA05B4322}">
+			<Child Name="BrowserWindow" Owner="{64CD4055-1F1F-42CA-8D50-ADD32F6CFDCD}" />
+			<Child Name="pageHome" Owner="{A8932ACA-ADE8-4943-939F-EC6780FE20CC}">
+				<Child Name="frameEntryframe" Owner="{368F2A57-1A2D-4614-95B7-F3BB6F0BAB92}">
+					<Child Name="timeEntry" Owner="{7F5DA10A-0B92-4F47-955F-B7DD967717F6}">
+						<Child Name="editEmployeeTimeButton" Owner="{653EA88E-19E0-4348-858D-4BE581F5E20A}">
+							<Child Name="EditEmployeeTimeButton" Owner="{33B9E88F-D9A1-48B8-AF98-17AD7BD8236C}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="frameMainframe" Owner="{50DBA051-7A6C-4793-82D6-3E5FDD8F9517}">
+					<Child Name="buttonFind" Owner="{FD04B596-B0D5-4871-86C8-28C449FAE739}" />
+					<Child Name="form" Owner="{89412073-B705-4D01-B26D-4CB924AD3CF2}">
+						<Child Name="textboxEmployeeId" Owner="{85C479DB-6D96-49A5-B535-9CFF8BE140B2}" />
+					</Child>
+					<Child Name="user01000061" Owner="{A8A76513-FFB7-4157-A262-2D56D7B0DBBA}" />
+				</Child>
+			</Child>
+			<Child Name="pageManagerTimeEntry" Owner="{2CE1733B-C544-4F67-8330-0ADC1682DA64}">
+				<Child Name="frameMainframe" Owner="{976F7BB5-F655-4318-8405-5D9716E008AA}">
+					<Child Name="buttonSearch" Owner="{EB926509-AE5B-46C0-8CD5-BEBA7D795F37}" />
+					<Child Name="frameTimeentryframe" Owner="{12AC8673-C77D-4DD0-8E71-91F6204EF508}">
+						<Child Name="calendarButton" Owner="{2FCE6666-02BE-45A0-8EF8-55F37A93435E}" />
+						<Child Name="februarySixButton" Owner="{3F09B9A1-96E2-4245-96A8-BECC849BFDEB}" />
+						<Child Name="closeCalendarButton" Owner="{5AA844C7-1172-4A3F-A0FD-EB6E9478302B}" />
+						<Child Name="plusbutton" Owner="{50DC8939-79F2-4C23-8EB7-B82B9B5BDF15}" />
+						<Child Name="textboxDatafieldPanel021PayCode" Owner="{613FAE8F-9260-467D-86B4-DF81EDBFD31F}" />
+						<Child Name="WedStartTime" Owner="{0B4FFE89-A7B4-4492-9240-FB8FB172C25F}" />
+						<Child Name="WedEndTime" Owner="{8B299E0F-5DAA-4536-85EA-70B6A9BE9B6D}" />
+						<Child Name="panel3" Owner="{AE69530B-D72B-4E69-BD13-8EF3BBB777C0}" />
+					</Child>
+				</Child>
+				<Child Name="frameMainframe2" Owner="{2D979A5D-2F70-4AFF-AB08-E89E8A4E4D09}">
+					<Child Name="frameTimeentryframe" Owner="{BF733F38-8C25-4520-B421-F8A81517874F}">
+						<Child Name="panel" Owner="{89A7D0F9-F98D-4F1B-8342-B805FA356109}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageWorkforceTime" Owner="{623FBB9A-F5AB-49AF-AAB5-BF05E614D166}">
+				<Child Name="formLogonform" Owner="{B04E25D3-E253-485F-9747-4FD2145440BD}">
+					<Child Name="UserNameTextBox" Owner="{02BA5752-ACEC-49D4-8C2B-B991DF1442EC}" />
+					<Child Name="PassWordTextBox" Owner="{F6325602-D49A-42DF-8A4A-7C7EEEDE0B03}" />
+					<Child Name="LoginButton" Owner="{13531DCE-E630-458E-B3DF-19444A377360}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

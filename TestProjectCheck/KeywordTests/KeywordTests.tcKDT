@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Test1" key="{7D0B1D77-E88E-4D0F-8159-459983D38701}" path="Test1.tcKDTest" />
+		<child name="LoginTest" key="{0ED32FB3-6B9D-479F-BDAC-C93DD2A83089}" path="LoginTest.tcKDTest" />
+		<child name="FindUser61" key="{3984B52C-8280-4289-860C-136797D7A6CE}" path="FindUser61.tcKDTest" />
+		<child name="setDateToFebruary6" key="{7713EB0B-3248-4B40-8F5E-D4E40F3F6A6E}" path="setDateToFebruary6.tcKDTest" />
+		<child name="enterClock" key="{E44C30F7-84D9-4169-A07B-3AD95B343976}" path="enterClock.tcKDTest" />
+		<child name="testTry" key="{9161A98C-CC89-4184-8865-C8A7D31766D0}" path="testTry.tcKDTest" />
+	</children>
+</Root>

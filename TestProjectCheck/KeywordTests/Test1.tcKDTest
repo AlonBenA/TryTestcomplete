@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{E246A904-C9CC-41B7-90DE-2A41BAEC52A9}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="LoginTest" Unit="LoginScript" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="FindUser61" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="setDateToFebruary6" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="enterClock" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{99373712-583A-44CE-8FBC-70961389009C}">
+		<Items>
+			<Variable Name="Password" Type="Password" Local="False">
+				<DefValue StrValue="380039003600310036003300440032004600340044003800380042004600370045004300390039004100370046003400460030004300430034004400300035004200380034004100440034003100380039003100460036003100450046004300" />
+			</Variable>
+			<Variable Name="User" Type="String" Local="False">
+				<DefValue StrValue="SUPER_YAACOV" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{BEECDABD-11CF-4D95-9C26-8A39B2B5807C}">
+		<Parameter0 Name="UserName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="SUPER_YAACOV" Description="" />
+		<Parameter1 Name="Password" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>
