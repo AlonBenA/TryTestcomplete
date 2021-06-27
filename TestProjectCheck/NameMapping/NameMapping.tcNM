@@ -639,8 +639,8 @@
 						<Child Name="closeCalendarButton" Owner="{5AA844C7-1172-4A3F-A0FD-EB6E9478302B}" />
 						<Child Name="plusbutton" Owner="{50DC8939-79F2-4C23-8EB7-B82B9B5BDF15}" />
 						<Child Name="textboxDatafieldPanel021PayCode" Owner="{613FAE8F-9260-467D-86B4-DF81EDBFD31F}" />
-						<Child Name="WedStartTime" Owner="{0B4FFE89-A7B4-4492-9240-FB8FB172C25F}" />
-						<Child Name="WedEndTime" Owner="{8B299E0F-5DAA-4536-85EA-70B6A9BE9B6D}" />
+						<Child Name="WednesdayStartTime" Owner="{0B4FFE89-A7B4-4492-9240-FB8FB172C25F}" />
+						<Child Name="WednesdayEndTime" Owner="{8B299E0F-5DAA-4536-85EA-70B6A9BE9B6D}" />
 						<Child Name="panel3" Owner="{AE69530B-D72B-4E69-BD13-8EF3BBB777C0}" />
 						<Child Name="optionsbutton" Owner="{6CF84735-3D17-4BD1-931B-552AC43AC460}" />
 					</Child>
